@@ -18,7 +18,7 @@ namespace ReleaseNotesFunctionApp
             var releaseBody = releaseDetails[1];
             var repoName = releaseDetails[2];
 
-            //Get issues and pull requests from 
+            //Get issues and pull requests from release repo
             string txtIssues = await GetReleaseDetails(IssueTypeQualifier.Issue, repoName);
             string txtPulls = await GetReleaseDetails(IssueTypeQualifier.PullRequest, repoName);
 
