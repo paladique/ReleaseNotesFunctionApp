@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "ReleaseNotesAppName": "{GitHub App Name}",
+    "ReleaseStorage": "UseDevelopmentStorage=true"
+  }
+}
